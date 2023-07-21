@@ -79,7 +79,7 @@ public class UserData {
         return String.join(" ", arr[0], arr[1], arr[2], arr[3]);
     }
 
-//  метод записи в файл
+//  метод записи в файл 
     private static void writeToFile(String fileName, String text, boolean append){
         try(FileWriter fw = new FileWriter(fileName, append);
             BufferedWriter bw = new BufferedWriter(fw);){
